@@ -1,0 +1,118 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.menu-icon{
+}
+.home-img{
+  height: 634px;
+}
+
+.menu-svg{
+  background-color: rgb(110, 94, 52);
+  padding: 0px;
+}
+.font-dayana{
+  font-family: "dayana - personal use";
+  font-style: italic;
+  font-size: 50px;
+}
+.know-btn{
+  background-color: rgb(110, 94, 52);
+  /* #6e5e34 */
+}
+
+
+@media screen and (min-width: 769px) {
+
+}
+@media screen and (max-width: 370px)
+{
+  .brand-name{
+    display: none;
+  }
+}
+@media screen and (max-width: 769px) {
+    .menu-icon{
+      display: block;
+      height: 100%;
+    }
+    .nav-links{
+      display: none;
+    }
+    .nav-mob-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-container{
+      border-bottom: 1px solid gray;
+      justify-content: space-between;
+    }
+    
+    
+    
+  
+
+}
+@media screen and (max-width: 991px)
+{
+
+  .brand-name{
+    display: none;
+  }
+  .intrduction-container{
+    margin-top: 16px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+  }
+  .intro-img{
+    width: 90%;
+    margin: 16px;
+  }
+  .intro-text{
+    width: 90%;
+    margin: 0px;
+  }
+  .intro2-text{
+    margin-top: 16px;
+    width: 90%;
+    margin: 0px;
+  }
+  .luxury-txt{
+
+    margin-top: 16px;
+  }
+  .maps-container{
+    display: grid;
+  }
+  .google-map{
+    width: fit-content;
+  }
+  .google-map{
+    width: fit-content;
+  }
+  .qr-container{
+    display: grid;
+  }
+  .about-us{
+    display: grid;
+  }
+}
+@media screen and (max-width: 620px){
+  .template-img{
+    display: none;
+  }
+  .mobile-temp{
+    display: block;
+    margin-top: 140px;
+  }
+}

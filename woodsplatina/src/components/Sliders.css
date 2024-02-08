@@ -1,0 +1,11 @@
+.slider-box{
+    background-color: white;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slick-slide > div{
+    margin: 0px 10px;
+
+}
